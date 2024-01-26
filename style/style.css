@@ -1,0 +1,194 @@
+.header{
+    width: 100%;
+    height: 100px;
+    font-family: Poppins;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 115px 0 120px;
+}
+nav a{
+    text-decoration: none;
+}
+.header-text{
+    font-size: 20px;
+}
+.header-icons{
+    display: flex;
+    gap: 34px;
+    font-size: 16px;
+    align-items: center;
+}
+/* header end */
+
+/* section */
+.section{
+    display: flex;
+    margin: 20px 160px 0 120px;
+    gap: 280px;
+}
+.section-title{
+    font-size: 52px;
+}
+.section-dp{
+    font-size: 16px;
+}
+.section-button{
+    border-radius: 41px;
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border: 0;
+}
+.section a{
+    text-decoration: none;
+}
+.section-img{
+    background-image: url(../images/Circle\ design.svg);
+    width: 440px;
+    height: 414px;
+}
+
+/* section-lugo */
+.section-lugo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 100px 0 50px;
+    gap: 71px;
+}
+
+/* section-collection */
+.section-collection{
+    justify-content: center;
+    text-align: center;
+    margin: 150px 220px 0 215px;
+}
+.section-mine-div{
+    box-shadow: 0 0 8px 8px rgba(241, 225, 225, 0.416);
+    padding: 10px;
+    /* text-align: left; */
+}
+.fa-star.color , .fa-star-half-stroke.color{
+    color: goldenrod;
+}
+.section-nine{
+    gap: 20px;
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.star{
+    text-align: left;
+}
+.title-nine{
+    font-size: 28px;
+    text-align: left;
+}
+.title-nines{
+    font-size: 24px;
+    text-align: left;
+}
+.title-4{
+    font-size: 14px;
+    text-align: left;
+}
+.section-buttonss{
+    text-align: right;
+    margin-top: 50px;
+}
+.section-buttonss a{
+    text-decoration: none;
+    color: red;
+}
+
+
+/* section-last */
+
+.section-last{
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+}
+.title-last{
+    font-size: 38px;
+}
+.dp-last{
+    font-size: 16px;
+}
+.section-button-last{
+    /* border-radius: 41px; */
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    border: 0;
+}
+
+
+
+
+/* footer */
+
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: lightcoral;
+}
+.footer-mine-div{
+    padding-top: 20px;
+}
+.footer-div{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.footer-title{
+    font-size: 24px;
+}
+.footer-titles{
+    font-size: 14px;
+}
+.footer-dp{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last{
+    width: 100%;
+    height: 12000px;
+    background-color: greenyellow;
+}
+.headers{
+    /* display: none; */
+}
+
+
+@media screen and (max-width:500px) {
+    .nav{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .section{
+        display: grid;
+        margin:0;
+        gap:5;
+
+    }
+}
