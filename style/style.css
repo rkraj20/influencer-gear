@@ -157,38 +157,59 @@ nav a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .last{
     width: 100%;
     height: 12000px;
     background-color: greenyellow;
 }
-.headers{
-    /* display: none; */
-}
 
+/* @media screen */
 
 @media screen and (max-width:500px) {
-    .nav{
-        display: none;
-    }
     .header{
-        display: none;
-    }
-    .section{
+        margin-left: 0;
+     }
+     .header-text{
+         font-size: 20px;
+     }
+     .section-title{
+        font-size: 30px;
+     }
+     nav{
+         display: grid;
+         margin-left: 0;
+     }
+     .header-icons{
+         display: flex;
+         gap: 34px;
+         font-size: 10px;
+     }
+     .section{
         display: grid;
-        margin:0;
-        gap:5;
-
-    }
+        text-align: left;
+        margin-left: 0;
+        gap: 10px;
+     }
+     .section-lugo{
+        display: grid;
+        justify-content: left;
+        margin-left: 0;
+        gap: 20px;
+     }
+     .section-collection{
+        margin-left: 0;
+     }
+     .section-nine{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .section-last{
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+     }
 }
+    
+    
+
